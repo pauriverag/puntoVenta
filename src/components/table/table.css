@@ -1,0 +1,105 @@
+.header{
+    padding-bottom:4rem;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    display: flex;    
+    flex-direction: row;    
+    gap: 50rem;
+
+}
+#IdTable{
+    width: 15rem;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    color:white;
+}
+.leftColumn{
+    flex: 1;
+    width: 50%;
+    margin-left: 2rem;
+
+}
+.rightColumn{
+    flex:1;
+    width: 50%;
+    max-width: 50%;
+    margin-right: 2rem;
+}
+
+.foodSelection{
+    display: flex;
+    width: 100%;
+    margin-bottom: 2rem;
+    
+}
+#food{
+    flex:5;
+    width: 50%;
+    height: 2rem;
+    font-size: medium;
+}
+#price{
+    flex: 4;
+    width: 40%;
+    background-color: rgba(245, 245, 220, 0.703);
+    border-radius: 25px 25px 25px 25px;
+    color: black;
+    font-weight: bold;
+
+}
+
+#otherPrice{
+    flex: 1;
+    width: 10%;
+    border-radius: 10px 10px 10px 10px;
+}
+.btnAddContainer {
+    text-align: right;
+}
+#btnAdd{
+    height: 3rem;
+    border-radius: 15px 15px 15px 15px;
+    font-weight: bold;
+}
+#foodList{
+    border-radius: 15px 15px 10px 10px;
+    width: 80%;
+    background-color: rgba(245, 245, 220, 0.459);
+    margin-left: 10%;
+}
+#foodListItem{
+    color: black;
+    font-weight: bold;
+    display: flex;
+    width: 100%;
+    padding-bottom: .3rem;
+   margin-right: 5rem;
+}
+#div{
+    flex: 1;
+    width: 10%;
+
+}
+#listName{
+    flex: 4;
+    width: 40%;
+}
+#listPrice{
+    flex: 2;
+    width:20% ;
+}
+#btnDeleteFood{
+    flex: 2;
+    width:20% ;
+}
+.totalLabel{
+    text-align:center;
+}
+#total{
+    font-weight: bold;
+    font-size: large;
+ 
+}
